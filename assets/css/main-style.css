@@ -1,0 +1,372 @@
+/*############################### 
+# CSS Custome File
+# Design & Developed by : Md Ashequl Morsalin
+###############################*/
+
+/**  Top Color Header | 01 **/
+.top-color-header {
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.color-1 {
+    width: 8%;
+    height: 5px;
+    background-color: #E21530;
+    float: left;
+}
+
+.color-2 {
+    width: 30%;
+    height: 5px;
+    background-color: #FFCE62;
+    float: left;
+}
+
+.color-3 {
+    width: 15%;
+    height: 5px;
+    background-color: #FF5545;
+    float: left;
+}
+
+.color-4 {
+    width: 20%;
+    height: 5px;
+    background-color: #008E98;
+    float: left;
+}
+
+.color-5 {
+    width: 12%;
+    height: 5px;
+    background-color: #DA061D;
+    float: left;
+}
+
+.color-6 {
+    width: 15%;
+    height: 5px;
+    background-color: #FFCE63;
+    float: left;
+}
+
+.color-7 {
+    width: 100%;
+    height: 3px;
+    background-color: #E3E1D9;
+    float: left;
+    opacity: 0.5;
+}
+
+
+/**  Main Content | 02 **/
+
+.main-content {
+    height: auto;
+    background-color: #FDF9F0;
+    margin-bottom: 30px;
+}
+
+
+/**  Content Header | 03 **/
+
+#content-top {}
+
+#content-header {
+    box-sizing: border-box;
+    height: 75px;
+    background-color: #FFFFFF;
+    margin: 60px 30px 0 30px;
+    border-left: 2px solid #E8E4DD;
+    border-right: 2px solid #E8E4DD;
+    border-bottom: 2px solid #C6C6C6;
+    position: relative;
+}
+
+.content-title {
+    padding: 20px 0 10px 0;
+    position: relative;
+}
+
+.content-item {
+    background-color: #E04355;
+    height: 20px;
+    width: auto;
+    padding: 0 4px 0 4px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+span.content-item:hover {
+    background-color: #DA061D;
+}
+
+.content-edit a {
+    color: #E2E2E2 !important;
+    text-decoration: none !important;
+}
+
+.content-edit a:hover {
+    color: grey !important;
+}
+
+.content-sticker {
+    position: absolute;
+    right: -0px;
+    top: 0px;
+}
+
+.content-sticker-arrow {
+    position: absolute;
+    right: 50px;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-right: 30px solid #FFCF6C;
+}
+
+.content-sticker-box {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    background-color: #FFCF6C;
+    top: 12px;
+    right: -10px;
+    padding: 4px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #694618;
+}
+
+.content-sticker-sidebar {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 10px 0 0;
+    border-color: #E4A52A transparent transparent;
+    top: 56px;
+}
+
+.content-body {
+    background-color: #EFEFEF;
+    height: auto;
+    margin: 0 30px 30px 30px;
+    border-radius: 0 0 5px 5px;
+    border-right: 2px solid #E7E7E2;
+    border-left: 2px solid #E7E7E2;
+    border-bottom: 2px solid #E7E7E2;
+    position: relative;
+}
+
+
+/**  Content Social | 04 **/
+
+.content-social {
+    position: absolute;
+    left: 65px;
+    top: 45px;
+}
+
+#twiter {
+    width: auto;
+    background: rgb(239, 239, 239);
+    background: -moz-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(234, 238, 235, 1) 40%, rgba(201, 203, 204, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(234, 238, 235, 1) 40%, rgba(201, 203, 204, 1) 100%);
+    background: linear-gradient(to bottom, rgba(239, 239, 239, 1) 0%, rgba(234, 238, 235, 1) 40%, rgba(201, 203, 204, 1) 100%);
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.fa-twitter {
+    color: #0092CE;
+}
+
+a.tweet-color-font {
+    color: #7C7C76 !important;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#facebook {
+    width: auto;
+    background: rgb(239, 239, 239);
+    background: -moz-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(234, 238, 235, 1) 40%, rgba(201, 203, 204, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(234, 238, 235, 1) 40%, rgba(201, 203, 204, 1) 100%);
+    background: linear-gradient(to bottom, rgba(239, 239, 239, 1) 0%, rgba(234, 238, 235, 1) 40%, rgba(201, 203, 204, 1) 100%);
+    padding: 0 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.fa-facebook-official {
+    color: #075A99;
+}
+
+a.fb-color-font {
+    color: #075A99 !important;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/**  Content To Box | 05 **/
+
+.content-close {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+#form-main-content {
+    width: 40%;
+}
+
+.form-one {
+    margin-top: 50px;
+}
+
+.content-box-to,
+.payment {
+    background-color: #F9F9F9;
+    border: 2px solid #CACACA;
+    height: auto;
+    clear: both;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#header-envelope {
+    height: 7px;
+    background-color: #fff;
+    background-image: repeating-linear-gradient(135deg, #FF5D48, #FF5D48, #fff 15px, #fff 5px, #0077C5 5px, #0077C5, #fff 30px, #fff 5px);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    top: 8px;
+    border: 1px solid #CACACA;
+    border-bottom: 0px;
+}
+
+.payment-header {
+    background-color: #E4E4E4;
+}
+
+.content-payment-box {
+    display: block;
+    background-color: #F9F9F9;
+    height: 50px;
+}
+
+.form-control.form-control-edit {
+    line-height: 1.5 !important;
+}
+
+.fa-times {
+    width: 30px;
+    height: 30px;
+    background: #DFDFDF;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #878789;
+    padding: 7px 0px 0px 9px;
+}
+
+.form-control.form-control-cv {
+    width: 40% !important;
+}
+
+.form-control.form-control-pay {
+    line-height: 1.5 !important;
+}
+
+.content-expiry-date {
+    display: flex;
+}
+
+.content-month {
+    width: 45%;
+    margin-right: 4%;
+}
+
+.content-year {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+
+
+/** Common Class | 06 **/
+
+.padding-5 {
+    padding: 5px 10px;
+}
+
+.padding-10 {
+    padding: 10px 10px;
+}
+
+.padding-left-right-10 {
+    padding: 0px 10px;
+}
+
+.text-edit {
+    color: #868E96 !important;
+}
+.bottom-height-20{
+    height: 20px;
+}
+
+/** Payment Option | 07 **/
+
+.fa-credit-card-alt {
+    color: #D0D4D9 !important;
+    padding-top: 4px;
+}
+
+.payment-header {
+    margin: 15px 0px;
+    padding-top: 5px;
+}
+
+.btn-pay {
+    background: rgb(99, 237, 211);
+    background: -moz-linear-gradient(top, rgba(99, 237, 211, 1) 0%, rgba(0, 189, 193, 1) 51%);
+    background: -webkit-linear-gradient(top, rgba(99, 237, 211, 1) 0%, rgba(0, 189, 193, 1) 51%);
+    background: linear-gradient(to bottom, rgba(99, 237, 211, 1) 0%, rgba(0, 189, 193, 1) 51%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63edd3', endColorstr='#00bdc1', GradientType=0);
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.text-pay-one-doller {
+    color: #868E96 !important;
+    margin-top: -5px;
+}
+
+
+.text-name-price {
+    width: 50%;
+}
+
+.pay-amount {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.pay-button {
+    width: 18%;
+    margin-left: 20px;
+}
